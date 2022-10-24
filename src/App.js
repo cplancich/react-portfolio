@@ -1,7 +1,7 @@
 import './App.css';
 import { Navigation } from './components/Navigation';
 import { About } from './components/About';
-import { Project } from './components/Project.js';
+import { Portfolio } from './components/Portfolio.js';
 import { Footer } from './components/Footer.js';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <div className="container mx-auto">
         <About />
       </div>
-      <Project />
+      <Portfolio />
       <Footer />
     </>
   );
