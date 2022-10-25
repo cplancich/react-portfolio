@@ -7,12 +7,14 @@ import { Footer } from './components/Footer.js';
 function App() {
   return (
     <>
+    <div className="bg-[#141F32]">
       <Navigation />
       <div className="container mx-auto">
         <About />
       </div>
       <Portfolio />
       <Footer />
+    </div>
     </>
   );
 }

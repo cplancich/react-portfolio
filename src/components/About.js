@@ -1,6 +1,6 @@
 export const About = () => {
     return (
-        <div className="p-3 sm:flex gap-2">
+        <div className="p-3 sm:flex gap-2 text-[#A4AAB5]">
             <div className="flex-1">
                 <img className="rounded-full mx-auto" src="https://i.giphy.com/media/ZbIWtQFH6KJeo/giphy.webp" alt="me irl" />
             </div>
